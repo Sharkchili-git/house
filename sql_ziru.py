@@ -4,7 +4,7 @@ from sqlalchemy import or_
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:7365728@127.0.0.1:3306/python1904'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@127.0.0.1:3306/database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
